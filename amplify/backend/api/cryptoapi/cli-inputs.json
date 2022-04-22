@@ -21,6 +21,13 @@
       "permissions": {
         "setting": "open"
       }
+    },
+    "/api-docs": {
+      "name": "/api-docs",
+      "lambdaFunction": "cryptofunction",
+      "permissions": {
+        "setting": "open"
+      }
     }
   }
 }
