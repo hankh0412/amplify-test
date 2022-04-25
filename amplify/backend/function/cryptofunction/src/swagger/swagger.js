@@ -12,8 +12,8 @@ const options = {
     },
     servers: [
       {
-        // url: "http://localhost:3000", // 요청 URL
-        url: "https://qrgdy6879j.execute-api.ap-northeast-2.amazonaws.com/local", // 요청 URL
+        url: "http://localhost:3000", // 요청 URL
+        // url: "https://qrgdy6879j.execute-api.ap-northeast-2.amazonaws.com/local", // 요청 URL
       },
     ],
   },

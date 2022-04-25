@@ -26,6 +26,7 @@ app.use(function(req, res, next) {
 });
 
 const { swaggerUi, specs } = require("./swagger/swagger")
+// app.use("/api-docs/v1", swaggerUi.serve, swaggerUi.setup(specs))
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs))
 
 const userRouter = require('./routes/user');
